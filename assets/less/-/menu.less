@@ -1,0 +1,64 @@
+/*--           MENU MODS BY MARK JOSEPH RIVERA - July, 2012                  --*/
+/*-----------------------------------------------------------------------------*/
+
+
+/*
+nav[menunav] { .absolute(); top: 0; right: -40px; background: url(@mnURL) no-repeat; width: @mnWidth; height: @mnHeight; margin: 0;
+	ul { position: absolute; top: 0; list-style: none; min-height: @mnHeight; margin: 0;
+		a, span { display: block; cursor: pointer; height: @mnHeight;
+			&:hover, &.on { background: url(@mnURL) no-repeat; }
+		}
+		ul { position: absolute; top: @mnHeight; left: 0; display: none; }
+	}
+	li { 
+		&:hover ul { display: block; width: auto; margin: 0; padding: 0; 
+			li:hover { position: relative; }
+			li a { 
+				display: block; 
+				background: @mnSubBG; 
+				font: 11px sans-serif; 
+				color: @mnSubColor; 
+				text-transform: uppercase; 
+				height: auto; 
+				padding: 10px; 
+				border: solid transparent; border-width: 0 0 1px 0; 
+			
+				*min-height: 15px; _height: 15px;
+				
+				&:hover { background: @mnSubHover; color: @mnSubColorHover; }
+			}
+		}
+		span { cursor: pointer; text-indent: -999em; }
+	}
+	
+	.parent li { width: @mnParent; 
+		.child { position: relative; top: 0; display: block; width: auto; height: auto;
+			li { text-indent: 15px; }
+			 a { font-size: 10px; font-weight: 100; padding: 5px; } 
+		}
+	}
+	
+	.mn1, .mn1 span { left: @mnX1Left; width: @mnX1;
+		&:hover { background-position: -@mnX1Position -@mnHeight; }
+	}
+	.mn2, .mn2 a { left: @mnX2Left; width: @mnX2;
+		&:hover { background-position: -@mnX2Position -@mnHeight; }
+	}
+	.mn3, .mn3 a { left: @mnX3Left; width: @mnX3;
+		&:hover { background-position: -@mnX3Position -@mnHeight; }
+	}
+	.mn4, .mn4 a { left: @mnX4Left; width: @mnX4;
+		&:hover { background-position: -@mnX4Position -@mnHeight; }
+	}
+	.mn5, .mn5 a { left: @mnX5Left; width: @mnX5;
+		&:hover { background-position: -@mnX5Position -@mnHeight; }
+	}
+}
+*/
+
+nav[menunav] { float: right; background: transparent; width: auto;
+	ul { list-style: none; line-height: 100px; width: auto; height: 100px; margin: 0;
+		li { display: inline; color: @grayDark; text-shadow: 1px 1px 1px lighten(#FFF, 100%); margin-left: 25px; }
+	}
+}
+

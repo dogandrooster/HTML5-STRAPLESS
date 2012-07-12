@@ -1,0 +1,68 @@
+/*--           HOME MODS BY MARK JOSEPH RIVERA - July, 2012                  --*/
+/*-----------------------------------------------------------------------------*/
+
+@import "-/strap.less";
+@import "-/mixin.less";
+
+// DEFAULT SCAFFOLDING
+.wrap { .cols(left); .relative(); width: @maxWidth; margin: 0;
+	&.header { background: @grayLighter; height: @minHeight; }
+	&.footer { background: @grayLighter; height: @minHeight; }
+	&.home   { background: none; min-height: @minHeight; }
+}
+
+header, footer, #main { .relative(); width: @frameSize; margin: auto; }
+header { height: 100px; 
+	#hdr-logo { .cols(left); background: @grayLight; text-align: center; width: 310px; height: 100px; }
+	#hdr-logo:before { content: "Welcome to HTML5"; line-height: 100px; z-index: 1; }
+}
+
+footer { font-weight: 100; color: @gray; text-align: center; padding: 10px 0; 
+	a { font-weight: 100; }
+	a[copyright] { color: @gray; }
+	a[signature] { font-size: @baseFontSize - 2; color: @gray; }
+	a:hover { border-bottom: dotted 1px @gray; }
+}
+
+
+@import "-/menu.less";
+@import "-/font.less";
+@import "-/class.less";
+
+
+// CASUAL STYLES CONFIGURATION
+
+a { color: @gray;
+	&:hover { color: @grayLight; }
+	&:focus, &:active { color: @orange; outline: 0; }
+}
+
+
+//## CONTENTS CONFIGURATION ##//
+
+#box { .cols(left); text-align: center; text-transform: capitalize; width: @frameSize; height: auto; margin: 50px 0; 
+	.page-header { 
+		small { display: block; font-size: 65%; text-transform: uppercase; margin-top: 5px; }
+	}	
+	.hero-unit p a.btn {
+		/*
+		color: #FFF; text-shadow: none;
+		background-color:#d88148;
+		background-color:#d88148 \9;
+	  background-image: -moz-linear-gradient(top, #d88148, #854419); 
+	  background-image: -ms-linear-gradient(top, #d88148, #854419); 
+	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d88148), to(#854419)); 
+	  background-image: -webkit-linear-gradient(top, #d88148, #854419); 
+	  background-image: -o-linear-gradient(top, #d88148, #854419); 
+	  background-image: linear-gradient(top, #d88148, #854419);
+		
+		&:hover { background-color:#854419; }
+		*/
+	}
+}
+
+@import "-/cssfix.less";
+
+
+
+
