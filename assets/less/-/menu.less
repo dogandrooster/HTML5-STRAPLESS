@@ -6,7 +6,7 @@
 nav[menunav] { .absolute(); top: 0; right: -40px; background: url(@mnURL) no-repeat; width: @mnWidth; height: @mnHeight; margin: 0;
 	ul { position: absolute; top: 0; list-style: none; min-height: @mnHeight; margin: 0;
 		a, span { display: block; cursor: pointer; height: @mnHeight;
-			&:hover, &.on { background: url(@mnURL) no-repeat; }
+			&:hover, &.on { background-image: url(@mnURL); }
 		}
 		ul { position: absolute; top: @mnHeight; left: 0; display: none; }
 	}
@@ -39,19 +39,19 @@ nav[menunav] { .absolute(); top: 0; right: -40px; background: url(@mnURL) no-rep
 	}
 	
 	.mn1, .mn1 span { left: @mnX1Left; width: @mnX1;
-		&:hover { background-position: -@mnX1Position -@mnHeight; }
+		&:hover, &.on { background-position: -@mnX1Position -@mnHeight; }
 	}
 	.mn2, .mn2 a { left: @mnX2Left; width: @mnX2;
-		&:hover { background-position: -@mnX2Position -@mnHeight; }
+		&:hover, &.on { background-position: -@mnX2Position -@mnHeight; }
 	}
 	.mn3, .mn3 a { left: @mnX3Left; width: @mnX3;
-		&:hover { background-position: -@mnX3Position -@mnHeight; }
+		&:hover, &.on { background-position: -@mnX3Position -@mnHeight; }
 	}
 	.mn4, .mn4 a { left: @mnX4Left; width: @mnX4;
-		&:hover { background-position: -@mnX4Position -@mnHeight; }
+		&:hover, &.on { background-position: -@mnX4Position -@mnHeight; }
 	}
 	.mn5, .mn5 a { left: @mnX5Left; width: @mnX5;
-		&:hover { background-position: -@mnX5Position -@mnHeight; }
+		&:hover, &.on { background-position: -@mnX5Position -@mnHeight; }
 	}
 }
 */
