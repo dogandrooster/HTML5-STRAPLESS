@@ -4,7 +4,7 @@
 	require_once "_inheritance.php";
 ?>
 <!doctype html>
-<!--[if lt IE 8]><html class="msie no-js" lang="en"><![endif]-->
+<!--[if lte IE 8]><html class="msie no-js" lang="en"><![endif]-->
 <!--[if gte IE 9]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
 <meta charset="utf-8">
@@ -13,10 +13,10 @@
 <meta name="author" content="">
 <meta name="viewport" content="width=device-width">
 <link rel="shortcut icon" href="<?=$root?>assets/images/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-<link rel="stylesheet" href="<?=$root?>assets/css/core.css">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="<?=$root?>assets/images/ico/apple-touch-icon-114x114-precomposed.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="<?=$root?>assets/images/ico/apple-touch-icon-72x72-precomposed.png">
+<link rel="apple-touch-icon-precomposed" href="<?=$root?>assets/images/ico/apple-touch-icon-57x57-precomposed.png">
+<link rel="stylesheet/less" href="<?=$root?>assets/less/core.less">
 <?=emptyblock('headercodes');?>
 <script src="<?=$root?>assets/js/script-hdr.min.js"></script>
 </head>

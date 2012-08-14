@@ -36,7 +36,7 @@
 
  
 <? startblock('headercodes') ?>
-<link rel="stylesheet" href="<?=$root?>assets/css/home.css">
+<link rel="stylesheet/less" href="<?=$root?>assets/less/home.less">
 <? endblock(); ?>
 
 <? startblock('extracodes') ?>
