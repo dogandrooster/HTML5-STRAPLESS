@@ -1,10 +1,9 @@
 /*--           HOME MODS BY MARK JOSEPH RIVERA - July, 2012                  --*/
 /*-----------------------------------------------------------------------------*/
 
-@import "-/strap.less";
 @import "-/mixin.less";
 
-// DEFAULT SCAFFOLDING
+//! DEFAULT SCAFFOLDING
 .wrap { .cols(left); .relative(); width: @maxWidth; margin: 0;
 	&.header { background: @grayLighter; height: @minHeight; }
 	&.footer { background: @grayLighter; height: @minHeight; }
@@ -25,20 +24,7 @@ footer { font-weight: 100; color: @gray; text-align: center; padding: 10px 0;
 }
 
 
-@import "-/menu.less";
-@import "-/font.less";
-@import "-/class.less";
-
-
-// CASUAL STYLES CONFIGURATION
-
-a { color: @gray;
-	&:hover { color: @grayLight; }
-	&:focus, &:active { color: @orange; outline: 0; }
-}
-
-
-//## CONTENTS CONFIGURATION ##//
+//! CONTENTS CONFIGURATION ##//
 
 #box { .cols(left); text-align: center; text-transform: capitalize; width: @frameSize; height: auto; margin: 50px 0; 
 	.page-header { 
@@ -49,19 +35,17 @@ a { color: @gray;
 		color: #FFF; text-shadow: none;
 		background-color:#d88148;
 		background-color:#d88148 \9;
-	  background-image: -moz-linear-gradient(top, #d88148, #854419); 
-	  background-image: -ms-linear-gradient(top, #d88148, #854419); 
-	  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d88148), to(#854419)); 
-	  background-image: -webkit-linear-gradient(top, #d88148, #854419); 
-	  background-image: -o-linear-gradient(top, #d88148, #854419); 
-	  background-image: linear-gradient(top, #d88148, #854419);
-		
+		background-image: -moz-linear-gradient(top, #d88148, #854419); 
+		background-image: -ms-linear-gradient(top, #d88148, #854419); 
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#d88148), to(#854419)); 
+		background-image: -webkit-linear-gradient(top, #d88148, #854419); 
+		background-image: -o-linear-gradient(top, #d88148, #854419); 
+		background-image: linear-gradient(top, #d88148, #854419);
+
 		&:hover { background-color:#854419; }
 		*/
 	}
 }
-
-@import "-/cssfix.less";
 
 
 

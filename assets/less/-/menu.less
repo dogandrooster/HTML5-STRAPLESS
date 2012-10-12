@@ -1,12 +1,46 @@
-/*--           MENU MODS BY MARK JOSEPH RIVERA - July, 2012                  --*/
+/*--           MENU MODS BY MARK JOSEPH RIVERA - October, 2012               --*/
 /*-----------------------------------------------------------------------------*/
 
+// DEFAULT MENU NAVIGATION
+@mnWidth				: 980px;
+@mnHeight				: 50px;
 
-/*
-nav[menunav] { .absolute(); top: 0; right: -40px; background: url(@mnURL) no-repeat; width: @mnWidth; height: @mnHeight; margin: 0;
+@mnSubBG				: fade(@black, 50%);
+@mnSubColor				: @white;
+@mnSubHover				: fade(@black, 75%);
+@mnSubColorHover		: @white;
+@mnParent				: 180px;
+
+@mnX1					: 100px;
+  @mnX1Gutter			: 0;
+  @mnX1Left				: @mnX1Gutter;
+  @mnX1Position			: @mnX1Left;
+
+@mnX2					: 100px;
+	@mnX2Gutter			: 0;
+	@mnX2Left			: @mnX1 + @mnX1Position + @mnX2Gutter;
+	@mnX2Position		: @mnX2Left;
+
+@mnX3					: 100px;
+	@mnX3Gutter			: 0;
+	@mnX3Left			: @mnX2 + @mnX2Position + @mnX3Gutter;
+	@mnX3Position		: @mnX3Left;
+
+@mnX4					: 100px;
+	@mnX4Gutter			: 0;
+	@mnX4Left			: @mnX3 + @mnX3Position + @mnX4Gutter;
+	@mnX4Position		: @mnX4Left;
+
+@mnX5					: 100px;
+	@mnX5Gutter			: 0;
+	@mnX5Left			: @mnX4 + @mnX4Position + @mnX5Gutter;
+	@mnX5Position		: @mnX5Left;
+
+
+nav[menunav] { .absolute(); top: 0; right: -40px; background: url("../images/mn/menunav.jpg") no-repeat; width: @mnWidth; height: @mnHeight; margin: 0;
 	ul { position: absolute; top: 0; list-style: none; min-height: @mnHeight; margin: 0;
 		a, span { display: block; cursor: pointer; height: @mnHeight;
-			&:hover, &.on { background-image: url(@mnURL); }
+			&:hover, &.on { background-image: url("../images/mn/menunav.jpg"); }
 		}
 		ul { position: absolute; top: @mnHeight; left: 0; display: none; }
 	}
@@ -54,11 +88,5 @@ nav[menunav] { .absolute(); top: 0; right: -40px; background: url(@mnURL) no-rep
 		&:hover, &.on { background-position: -@mnX5Position -@mnHeight; }
 	}
 }
-*/
 
-nav[menunav] { float: right; background: transparent; width: auto;
-	ul { list-style: none; line-height: 100px; width: auto; height: 100px; margin: 0;
-		li { display: inline; color: @grayDark; text-shadow: 1px 1px 1px lighten(#FFF, 100%); margin-left: 25px; }
-	}
-}
 
