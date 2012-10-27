@@ -22,7 +22,6 @@
 </head>
 
 <body>
-
 <div class="wrap header">
 	<header>
   	<a id="hdr-logo" href="<?=$root?>" title="go back to Homepage"></a>

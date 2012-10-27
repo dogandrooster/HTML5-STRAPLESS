@@ -7,8 +7,8 @@
 
  
 <? startblock('content') ?>
-<article id=box>
-	<div class=page-header>
+<article id="box">
+	<div class="page-header">
 		<h1>HI, IM MARK RIVERA <small>and welcome</small></h1>
 	</div>
 	<div class='hero-unit clearfix'>
