@@ -51,6 +51,9 @@
 
 <!-- INT/EXT JAVASCRIPT -->
 <script src="<?=$root?>assets/js/script-ftr.min.js"></script>
+<!--[if (gte IE 6)&(lte IE 8)]>
+<script src="<?=$root?>assets/js/selectivizr.min.js"></script>
+<![endif]-->
 <?=emptyblock('extracodes');?>
 <script>
 	//GOOGLE ANALYTIC SCRIPT
