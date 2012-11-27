@@ -29,8 +29,6 @@
 			  </div>
 			</div>
 		</p>
-
-		<input type="text" placeholder="Test"> 
 	</div>
 </article>
 <? endblock(); ?>
