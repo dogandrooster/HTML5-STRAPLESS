@@ -28,7 +28,9 @@
 			    <button class="btn btn-danger">Danger</button>
 			  </div>
 			</div>
-		</p> 
+		</p>
+
+		<input type="text" placeholder="Test"> 
 	</div>
 </article>
 <? endblock(); ?>
